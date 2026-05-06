@@ -89,7 +89,7 @@ class DataValidation:
         Output      :   Returns bool value based on validation results
         On Failure  :   Write an exception log and then raise an exception
         """
-
+        
         try:
             validation_error_msg = ""
             logging.info("Starting data validation")

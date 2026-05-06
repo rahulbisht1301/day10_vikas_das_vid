@@ -10,7 +10,6 @@ PIPELINE_NAME: str = ""
 ARTIFACT_DIR: str = "artifact"
 
 MODEL_FILE_NAME = "model.pkl"
-
 TARGET_COLUMN = "Response"
 CURRENT_YEAR = date.today().year
 PREPROCSSING_OBJECT_FILE_NAME = "preprocessing.pkl"
@@ -67,7 +66,7 @@ MIN_SAMPLES_SPLIT_RANDOM_STATE: int = 101
 MODEL Evaluation related constants
 """
 MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
-MODEL_BUCKET_NAME = "mlops-proj-13011"
+MODEL_BUCKET_NAME = "my-model-mlopsproj-rahul-project-mlops"
 MODEL_PUSHER_S3_KEY = "mokdel-registry"
 
 

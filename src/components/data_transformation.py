@@ -125,7 +125,7 @@ class DataTransformation:
             input_feature_test_df = test_df.drop(columns=[TARGET_COLUMN])
             target_feature_test_df = test_df[TARGET_COLUMN]
             logging.info("Input and Target cols defined for both train and test df.")
-
+            
             # Apply custom transformations in specified sequence
             input_feature_train_df = self._map_gender_column(input_feature_train_df)
             input_feature_train_df = self._drop_id_column(input_feature_train_df)
