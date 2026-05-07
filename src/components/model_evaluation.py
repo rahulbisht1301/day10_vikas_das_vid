@@ -139,7 +139,7 @@ class ModelEvaluation:
             logging.info("Initialized Model Evaluation Component.")
             evaluate_model_response = self.evaluate_model()
             s3_model_path = self.model_eval_config.s3_model_key_path
-
+            
             model_evaluation_artifact = ModelEvaluationArtifact(
                 is_model_accepted=evaluate_model_response.is_model_accepted,
                 s3_model_path=s3_model_path,
