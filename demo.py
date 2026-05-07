@@ -23,6 +23,7 @@
 # # --------------------------------------------------------------------------------
 
 from src.pipline.training_pipeline import TrainPipeline
-
+print("now starting the pipeline in here")
 pipline = TrainPipeline()
+print("onject just got made and now we moving to pipeline execution")
 pipline.run_pipeline()
